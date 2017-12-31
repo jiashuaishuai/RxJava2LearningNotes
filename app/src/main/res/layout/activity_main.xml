@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jiashuai.myapplicationrxjava2.MainActivity">
+
+    <TextView
+        android:id="@+id/my_tv"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="backpressure error" />
+
+    <EditText
+        android:id="@+id/my_edit"
+        android:layout_width="match_parent"
+        android:hint="搜索联想功能"
+        android:layout_height="60dp" />
+    <TextView
+        android:id="@+id/my_tv_test_debounce"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="结果" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:onClick="goPhoneAppListActivity"
+        android:text="PhoneAppListActivity" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/haha"
+        android:layout_height="60dp" />
+
+</LinearLayout>
